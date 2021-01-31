@@ -6,6 +6,8 @@ import Project from "./components/Project"
 import Landing from "./components/Landing"
 import edition1 from "./components/edition01";
 import NavBar from "./components/NavBar";
+import contact from "./components/contact";
+import Foooter from "./components/Footer";
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
       <Route component={Project} path='/project' />
       <Route component={Landing} path='/landing' />
       <Route component={edition1} path='/resume' />
+      <Route component={contact} path='/contact' />
     </Switch>
+    <Foooter></Foooter>
     </BrowserRouter>
   )
 }

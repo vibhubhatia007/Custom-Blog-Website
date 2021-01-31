@@ -1,12 +1,14 @@
+
 import React from 'react';
 import { Viewer } from '@react-pdf-viewer/core';
 import { toolbarPlugin } from '@react-pdf-viewer/toolbar';
 import imagex from "../resume.pdf";
-import Footer from "../components/Footer"
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/toolbar/lib/styles/index.css';
 import { pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+
 
 
 export default function edition1(){
@@ -108,8 +110,7 @@ export default function edition1(){
             <div style={{marginTop: '160px',}}>
 
             </div>
-            <Footer></Footer>
+
             </main>
        
 );}
-

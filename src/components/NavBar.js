@@ -126,7 +126,7 @@ export default function Navbar(props) {
                       : "text-gray-800 hover:text-gray-600") +
                     " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   }
-                  href="/conatct"
+                  href="/contact"
                 >
                 Contact 
                 </a>
@@ -164,7 +164,7 @@ export default function Navbar(props) {
                       : "text-gray-800 hover:text-gray-600") +
                     " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   }
-                  href="https://psyberduck.com/"
+                  href="mailto:vibhubhatia0007@gmail.com"
                 >
                   <i
                     className={
@@ -174,7 +174,7 @@ export default function Navbar(props) {
                       " fab fa-facebook text-lg leading-lg "
                     }
                   />
-                  <span className="lg:hidden inline-block ml-2">Share</span>
+                  <span className="lg:hidden inline-block ml-2">Facebook</span>
                 </a>
               </li>
 
@@ -186,7 +186,7 @@ export default function Navbar(props) {
                       : "text-gray-800 hover:text-gray-600") +
                     " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   }
-                  href="https://psyberduck.com/"
+                  href="mailto:vibhubhatia0007@gmail.com"
                 >
                   <i
                     className={
@@ -196,7 +196,7 @@ export default function Navbar(props) {
                       " fa fa-envelope text-lg leading-lg "
                     }
                   />
-                  <span className="lg:hidden inline-block ml-2">Get In Touch</span>
+                  <span className="lg:hidden inline-block ml-2">Mail ID</span>
                 </a>
               </li>
 
@@ -208,7 +208,7 @@ export default function Navbar(props) {
                       : "text-gray-800 hover:text-gray-600") +
                     " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   }
-                  href="https://psyberduck.com/"
+                  href="https://www.instagram.com/vibhu.669/"
                 >
                   <i
                     className={
@@ -218,7 +218,28 @@ export default function Navbar(props) {
                       " fab fa-instagram text-lg leading-lg "
                     }
                   />
-                  <span className="lg:hidden inline-block ml-2">Like</span>
+                  <span className="lg:hidden inline-block ml-2">instagram</span>
+                </a>
+              </li>
+              <li className="flex items-center">
+                <a
+                  className={
+                    (props.transparent
+                      ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                      : "text-gray-800 hover:text-gray-600") +
+                    " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  }
+                  href="https://www.linkedin.com/in/vibhu-bhatia-483629167/"
+                >
+                  <i
+                    className={
+                      (props.transparent
+                        ? "lg:text-gray-300 text-gray-500"
+                        : "text-gray-500") +
+                      " fab fa-linkedin text-lg leading-lg "
+                    }
+                  />
+                  <span className="lg:hidden inline-block ml-2">instagram</span>
                 </a>
               </li>
 

@@ -11,7 +11,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <footer className="relative bg-gray-300 pt-8 pb-6">
+      <footer className="relative bg-white pt-8 pb-6">
         <div
           className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style={{ height: "80px", transform: "translateZ(0)" }}
@@ -26,7 +26,7 @@ export default function Footer() {
             y="0"
           >
             <polygon
-              className="text-gray-300 fill-current"
+              className="text-white fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
@@ -147,10 +147,10 @@ export default function Footer() {
               <div className="text-sm text-gray-600 font-semibold py-1">
                 Copyright © 2020 Designed By
                 <a
-                  href="https://psyberduck.com"
+                  href="/"
                   className="text-gray-600 hover:text-gray-900"
                 >
-                 Team PsyberDuck
+                 Vibhu Bhatia
                 </a>.
               </div>
             </div>

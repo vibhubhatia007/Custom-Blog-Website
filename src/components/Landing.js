@@ -1,7 +1,6 @@
 import React from "react";
 // import Navbar from "../components/NavBar"
 import cover from "../cover.png"
-import Footer from "./Footer";
 import image from "../books.jpg";
 // import imagex from "../book.jpg";
 
@@ -118,25 +117,19 @@ export default function Landing() {
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Advisory Board
+                About Me
                 </h3>
                 <p className="text-lg  leading-relaxed mt-4 mb-4 text-gray-700">
-                 Professor Mukteshwar Nath Tiwary.<br></br>
-                 Hindi Bhawan, Vishwa Bharti,Shanti <br></br>
-                 Niketan. West Bengal (+91-9474765831)  <br></br>   
-                 <br></br>  
-                 Dr. Kamlesh Verma. Dept. of Hindi<br></br>
-                 Rajkiya Mahila Mahavidyalya,Sewapuri,<br></br>
-                 Varanasi, U.P. (+91-9415256226)<br></br>
-                 E-mail: kamleshvermajnu@gmail.com<br></br>
+                I am Engineering Undergraduate finding my way to solve real life intruging and challenging problems through
+                innoviative and practical solutions.
                 </p>
-                <p className="text-lg  leading-relaxed mt-0 mb-4 text-gray-700">
+                {/* <p className="text-lg  leading-relaxed mt-0 mb-4 text-gray-700">
                 Dr. Ashutosh Partheshwar<br></br>
                 Assistant Professor, Dept. of Hindi  <br></br>
                 Oriental College, Patna City.<br></br>
                 Mob. 09934260232<br></br>
                 E-mail: parthdot@gmail.com<br></br>
-                </p>
+                </p> */}
               
               </div>
 
@@ -157,7 +150,6 @@ export default function Landing() {
 
        
       </main>
-      <Footer />
     </>
   );
 }
