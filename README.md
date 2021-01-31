@@ -1,6 +1,39 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+This site can be viewed on this [link](https://vibhubhatia.netlify.app/).
+
+# Dependencies
+[React Router Dom](https://www.npmjs.com/package/react-router-dom)\
+[React PDF](https://www.npmjs.com/package/react-pdf)\
+[React PDF Viewer](https://www.npmjs.com/package/pdf-viewer-reactjs)\
+[React PDF Toolbar](https://www.npmjs.com/package/@react-pdf-viewer/toolbar)\
+[Sanity Studio](https://www.sanity.io/docs/sanity-studio)\
+[Sanity CLI](https://www.npmjs.com/package/@sanity/cli)\
+[Sanity Image URL](https://www.npmjs.com/package/@sanity/image-url)\
+[Sanity Bloquote](https://www.npmjs.com/package/@sanity/block-content-to-react)
+
+## Setup
+```ruby
+sanity login
+sanity init
+cd studio
+sanity start
+configure projectid in client.js
+```
+
+## Deploy
+
+```ruby
+Add _redirects to public folder
+point to index.html
+npm install netlify-cli -g
+netlify deploy
+cd studio
+sanity deploy
+```
+Detailed information can be viewed [here](https://create-react-app.dev/docs/deployment/)
+
 
 ## Available Scripts
 
@@ -68,3 +101,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
