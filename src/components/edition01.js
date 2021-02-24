@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Viewer } from '@react-pdf-viewer/core';
 import { toolbarPlugin } from '@react-pdf-viewer/toolbar';
@@ -6,9 +5,7 @@ import imagex from "../resume.pdf";
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/toolbar/lib/styles/index.css';
 import { pdfjs } from "react-pdf";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-
-
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 
 export default function edition1(){
@@ -54,7 +51,7 @@ export default function edition1(){
                 {
                     (props) => {
                         const {
-                            EnterFullScreen, Download, Zoom, ZoomIn, ZoomOut,GoToPreviousPage,GoToNextPage,CurrentPageInput,
+                            EnterFullScreen, Download, Zoom, ZoomIn, ZoomOut,
                         } = props;
                         return (
                             <>
@@ -67,7 +64,7 @@ export default function edition1(){
                                 <div style={{ padding: '0px 3px' }}>
                                     <ZoomIn />
                                 </div>
-                                <div style={{ padding: '0px 3px', }}>
+                                {/* <div style={{ padding: '0px 3px', }}>
                                 <GoToPreviousPage />
                                 </div>
                                  <div style={{ padding: '0px 3px' }}>
@@ -76,7 +73,7 @@ export default function edition1(){
                                 <div style={{ padding: '0px 3px' }}>
                                  <GoToNextPage />
 
-                                </div>
+                                </div> */}
                                 <div style={{ padding: '0px 2px', marginLeft: 'auto' }}>
                                     <EnterFullScreen />
                                 </div>
@@ -114,3 +111,4 @@ export default function edition1(){
             </main>
        
 );}
+

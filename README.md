@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
-This site can be viewed on this [link](https://vibhubhatia.netlify.app/).
+This site can be viewed on this [link](https://vibhubhatia.ml/).
 
 # Dependencies
 [React Router Dom](https://www.npmjs.com/package/react-router-dom)\
