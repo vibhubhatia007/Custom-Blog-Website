@@ -48,7 +48,7 @@ export default function Navbar(props) {
           >
             <ul className="flex flex-col lg:flex-row list-none mr-auto">
               <li className="flex items-center">
-                <a
+                {/* <a
                   className={
                     (props.transparent
                       ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
@@ -65,9 +65,9 @@ export default function Navbar(props) {
                       " far fa-file-alt text-lg leading-lg mr-2"
                     }
                   /> */}
-                  {" "}
-                  Home
-                </a>
+                  {/* {" "}
+                  Home }
+                </a> */}
                 <a
                   className={
                     (props.transparent
